@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body {	
+	font-family: BIZ UDPゴシック;
+	text-align: center;
+}
+
+h2 {
+	font-size:  48px;   
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+}
+
+.manager {
+	font-size:  30px;
+}
+	
+.back { 
+	margin-left: 1000px;
+}
+
+th {
+	font-size:  20px; 
+	border: 1px solid #5e696c;
+    text-align:center;
+    background-color: #3cb371;
+    height: 32px;
+}
+
+tr {
+	font-size:  20px; 
+}
+
+td {
+	border: 1px solid #5e696c;
+	text-align: center;
+	height: 24px;
+}
+
+table {
+	border: 1px solid #5e696c;
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%; 					/* テーブル横幅 */
+	border-collapse:  collapse; 	
+}
+
+#sample-popup-switch {
+	/* チェックボックスを非表示 */
+	display: none;
+}
+
+.sample-popup-background {
+	/* 画面全体を暗くする透過背景 */
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.sample-popup-content {
+	/* ポップアップ本体 */
+	display: inline-block;
+	position: fixed;
+	width: 8%;
+	height: 10%;
+	z-index: 1100;
+	background: #fff;
+	padding: 2%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	overflow-y: scroll;
+}
+
+.sample-popup-close {
+	/* ポップアップ内の閉じるボタン */
+	position: fixed;
+	display: inline-block;
+	background: #09f;
+	color: #fff;
+	padding: 0 1em;
+	border-radius: 3px;
+	cursor: pointer;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#sample-popup-switch:checked ~ .sample-popup-box,#sample-popup-switch:checked ~ .sample-popup-background{
+	/* ポップアップ･透過背景を閉じる */
+	display: none;
+}
+
