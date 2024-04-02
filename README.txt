@@ -1,4 +1,4 @@
-・Attendance
+◇Attendance
 Eclipseで勤怠システムを作成したコード
 
 〇Attendanceの構成 
@@ -71,8 +71,8 @@ CSSを記述している。
 Attendance/src/main/webapp/style2.css 
 CSSを記述している。
 
-・Todo 
+◇Todo 
 作業前にこれから行う作業内容の記述、作業後に作業を行って発生した課題、また作業を行って難しかった事や理解できなかった点の解決方法を記述したファイル
 
-・Java成果物作成 
+◇Java成果物作成 
 勤怠システムの構成や画面の動きをまとめたPowerPoint
